@@ -3,7 +3,7 @@
 Varje punkt ska göras som en eller flera gitcommits till ett nytt repo. Repot ska läggas upp på
 github och ni ska länka från github repot till er webbadress där sidan går att se.
 
-Ni ska göra två PHP sidor, en index.php och en results.php
+Det ska göras två PHP sidor, en index.php och en results.php
 
 Från index.php ska man i ett formulär kunna välja hur många apor, giraffer, tigrar och
 kokosnötter som ska finnas i naturreservatet
