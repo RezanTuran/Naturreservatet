@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="" ">
+</body>
+</html>
 
 <?php
 
@@ -75,10 +87,11 @@ for ($i=0; $i < $nrOfKokosnötter; $i++) {
 
 
 foreach($animalArray as $value){
-    echo ($value->name);
+    echo "<h3> $value->name </h3>";
     echo "<br>";
-    echo "<img style='width: 10em; height: auto;' src='". $value->imageUrl ."'>" . "<br>". $value->makeSound(). "<br>";
-}
+    echo "<img style='width: 10em; height: auto;' src='". $value->imageUrl ."'>" . "<br>". $value->makeSound(). "<br>" ;
+} 
+
 
 
 
@@ -91,8 +104,5 @@ foreach($animalArray as $value){
 // echo "<br>";
 // echo $kokosnötter ->makeSound();
 ?>
-
-    
-
 
 
